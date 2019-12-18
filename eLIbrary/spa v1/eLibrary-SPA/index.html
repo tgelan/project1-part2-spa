@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/united/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-bzjLLgZOhgXbSvSc5A9LWWo/mSIYf7U7nFbmYIB2Lgmuiw3vKGJuu+abKoaTx4W6" crossorigin="anonymous">
+    <title>eLibrary-SPA</title>
+    <script defer src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" id="homeID" href="#">MSD eLibrary</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+               </button>
+
+                   <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" id="virtualID" href="#">Virtual Tour<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="aboutID" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="booksID" href="#">Books <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input id="searchedText" class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="button" id="searchid">Go!</button>
+                </form>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1 class="display-3"></h1>
+
+
+            <div class="container" width="100%">
+                <!-- render here -->
+                <div id="outlet">...page loading</div>
+                <!-- render here -->
+            </div>
+            <footer class="footer"><br>
+                <div class="container">© 2020 Copyright:
+                    <a href="https://msd.miu.edu/"> MSD.com</a>
+                    <div> Masters in Software Development</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

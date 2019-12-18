@@ -1,0 +1,12 @@
+#navbarColor02 li {
+    border-right: 1px solid #ffffff;
+    }
+    #navbarColor02 li:last-child {
+    border-right: none
+    }
+    footer{
+        position:relative;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }

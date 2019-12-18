@@ -1,0 +1,19 @@
+            The purpose of lorem ipsum is to create a natural looking block of text
+            (sentence, paragraph, page, etc.) that doesn't distract from the layout. <br />
+            A practice not without controversy, laying out pages with meaningless
+            filler text can be very useful when the focus is meant to be on design, not content.
+           
+            The eLibrary® database has been completely re-imagined, with a redesigned experience that 
+            more efficiently guides novice researchers to identify their research topic and find authoritative 
+            information to support their research claim. Presented on the award-winning ProQuest platform, eLibrary 
+            offers two methods of access: a custom Guided Research application, and as part of the unified platform, 
+            assuring fit-for-purpose use. The responsively-designed user interface offers access on any device at any time. 
+            and, users can cross-search eLibrary with other ProQuest databases, improving your library’s return-on-investment.
+
+
+            eLibrary®—the user-friendly general reference tool—delivers one of the largest general reference collections of periodical and 
+            digital media content designed to support every range of users, including middle and high school students, college-prep and college-level 
+            researchers, and professional educators. Educators can even search for resources that correlate to state and national standards, including 
+            Common Core State Standards. eLibrary’s updated interface and features make research easy. Researchers will find the answers they need from 
+            more than 2,090 full-text magazines, newspapers, books, and transcript titles, plus a collection of over 7 million maps, pictures, weblinks, 
+            and audio/video files.
